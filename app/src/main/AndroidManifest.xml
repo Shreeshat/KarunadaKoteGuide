@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- INTERNET -->
+
+    <uses-permission
+        android:name="android.permission.INTERNET"/>
+
+    <!-- LOCATION -->
+
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!-- CAMERA -->
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+
+    <!-- STORAGE -->
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDxoua3hrnNKVm6zdzQ2Bc50KDRmos7OMw"/>
+
+
+
+
+        <!-- REGISTER -->
+
+        <activity
+            android:name=".RegisterActivity"/>
+
+        <!-- FORT DETAIL -->
+
+        <activity
+            android:name=".FortDetailActivity"/>
+
+        <!-- FORT LIST -->
+
+        <activity
+            android:name=".FortListActivity"/>
+
+        <!-- HOME -->
+
+        <activity
+            android:name=".HomeActivity"/>
+
+        <!-- TOURIST GALLERY -->
+
+        <activity
+            android:name=".TouristGalleryActivity"/>
+
+        <activity android:name=".FortMapActivity"/>
+
+        <!-- LOGIN -->
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN"/>
+
+                <category
+                    android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
