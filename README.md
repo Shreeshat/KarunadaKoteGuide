@@ -295,7 +295,7 @@ Highlight ancient engineering brilliance, defense systems, and water management 
 ![Screenshot 6](s6.png)
 ---
 
-![Screenshot 7](s7.png)
+![Screenshot 7](s8.png)
 ---
 
 # 🔮 Future Enhancements
