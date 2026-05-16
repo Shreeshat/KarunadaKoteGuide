@@ -309,8 +309,6 @@ Highlight ancient engineering brilliance, defense systems, and water management 
 
 # 👨‍💻 Developed By
 
-Shreeshat
+Shreesha
 
-AI-Based Karnataka Heritage Tourism Application
 
-Karunada-Kote Guide — Karnataka Pride
