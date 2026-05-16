@@ -272,30 +272,27 @@ Highlight ancient engineering brilliance, defense systems, and water management 
 
 # 📸 Application Screenshots
 
-## Login Screen
-![login](screenshots/s1.png)
+![Screenshot 1](s1.png)
 
 ---
 
-## Home Screen
-![Home](screenshots/s2.png)
-
+![Screenshot 2](s2.png)
 
 ---
 
-## 🏰 Fort Selection Screen
-![Fort List](screenshots/s3.png)
+![Screenshot 3](s3.png)
 
 ---
 
-## 📖 Story Narration Screen
-![Story](screenshots/s4.png)
+![Screenshot 4](s4.png)
 
 ---
 
-## 🌐 GPS Location
-![GPS](screenshots/s5.png)
+![Screenshot 5](s5.png)
 
+---
+
+![Screenshot 6](s6.png)
 ---
 
 # 🔮 Future Enhancements
